@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Main_Page_GitHub
+Partial Class Form_Main_Test_Github_v1
 	Inherits System.Windows.Forms.Form
 
 	'Form overrides dispose to clean up the component list.
@@ -22,28 +22,31 @@ Partial Class Main_Page_GitHub
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
-		Me.U5_GitHub_Test11 = New G1_Test_GitHub.U5_GitHub_Test1()
+		Me.Label1 = New System.Windows.Forms.Label()
 		Me.SuspendLayout()
 		'
-		'U5_GitHub_Test11
+		'Label1
 		'
-		Me.U5_GitHub_Test11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.U5_GitHub_Test11.Location = New System.Drawing.Point(52, 39)
-		Me.U5_GitHub_Test11.Name = "U5_GitHub_Test11"
-		Me.U5_GitHub_Test11.Size = New System.Drawing.Size(220, 100)
-		Me.U5_GitHub_Test11.TabIndex = 0
+		Me.Label1.AutoSize = True
+		Me.Label1.Location = New System.Drawing.Point(43, 13)
+		Me.Label1.Name = "Label1"
+		Me.Label1.Size = New System.Drawing.Size(41, 15)
+		Me.Label1.TabIndex = 0
+		Me.Label1.Text = "Label1"
 		'
-		'Main_Page_GitHub
+		'Form_Main_Test_Github_v1
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(358, 236)
-		Me.Controls.Add(Me.U5_GitHub_Test11)
-		Me.Name = "Main_Page_GitHub"
-		Me.Text = "Main_Page GitHub"
+		Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+		Me.ClientSize = New System.Drawing.Size(460, 227)
+		Me.Controls.Add(Me.Label1)
+		Me.Name = "Form_Main_Test_Github_v1"
+		Me.Text = "Form_Main_Test_Github_v1"
 		Me.ResumeLayout(False)
+		Me.PerformLayout()
 
 	End Sub
 
-	Friend WithEvents U5_GitHub_Test11 As U5_GitHub_Test1
+	Friend WithEvents Label1 As Label
 End Class

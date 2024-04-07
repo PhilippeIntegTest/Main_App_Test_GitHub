@@ -23,6 +23,7 @@ Partial Class U5_GitHub_Test1
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
 		Me.Button1 = New System.Windows.Forms.Button()
+		Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
 		Me.SuspendLayout()
 		'
 		'Button1
@@ -33,6 +34,10 @@ Partial Class U5_GitHub_Test1
 		Me.Button1.TabIndex = 0
 		Me.Button1.Text = "Button1"
 		Me.Button1.UseVisualStyleBackColor = True
+		'
+		'OpenFileDialog1
+		'
+		Me.OpenFileDialog1.FileName = "OpenFileDialog1"
 		'
 		'U5_GitHub_Test1
 		'
@@ -47,4 +52,5 @@ Partial Class U5_GitHub_Test1
 	End Sub
 
 	Friend WithEvents Button1 As Button
+	Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class
