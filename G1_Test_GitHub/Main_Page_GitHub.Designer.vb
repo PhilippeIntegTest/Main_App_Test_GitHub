@@ -33,13 +33,13 @@ Partial Class Main_Page_GitHub
 		Me.U5_GitHub_Test11.Size = New System.Drawing.Size(220, 100)
 		Me.U5_GitHub_Test11.TabIndex = 0
 		'
-		'Form1
+		'Main_Page_GitHub
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(444, 236)
+		Me.ClientSize = New System.Drawing.Size(358, 236)
 		Me.Controls.Add(Me.U5_GitHub_Test11)
-		Me.Name = "Form1"
+		Me.Name = "Main_Page_GitHub"
 		Me.Text = "Main_Page GitHub"
 		Me.ResumeLayout(False)
 
