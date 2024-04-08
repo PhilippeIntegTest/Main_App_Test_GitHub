@@ -46,7 +46,7 @@ Partial Class Git_Test_V1
 		'
 		'Button1
 		'
-		Me.Button1.Location = New System.Drawing.Point(118, 12)
+		Me.Button1.Location = New System.Drawing.Point(118, 31)
 		Me.Button1.Name = "Button1"
 		Me.Button1.Size = New System.Drawing.Size(200, 23)
 		Me.Button1.TabIndex = 1
