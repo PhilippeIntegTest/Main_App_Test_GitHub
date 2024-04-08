@@ -25,6 +25,7 @@ Partial Class Git_Test_V1
 		Me.components = New System.ComponentModel.Container()
 		Me.U_Db_Database_Access1 = New Common_All_2013_a.U_Db_Database_Access()
 		Me.Button1 = New System.Windows.Forms.Button()
+		Me.Button2 = New System.Windows.Forms.Button()
 		Me.SuspendLayout()
 		'
 		'U_Db_Database_Access1
@@ -53,12 +54,22 @@ Partial Class Git_Test_V1
 		Me.Button1.Text = "Branch Emn Test"
 		Me.Button1.UseVisualStyleBackColor = True
 		'
+		'Button2
+		'
+		Me.Button2.Location = New System.Drawing.Point(160, 60)
+		Me.Button2.Name = "Button2"
+		Me.Button2.Size = New System.Drawing.Size(213, 23)
+		Me.Button2.TabIndex = 2
+		Me.Button2.Text = "Version 2 Ajouté le 2024-04-08 PCh"
+		Me.Button2.UseVisualStyleBackColor = True
+		'
 		'Git_Test_V1
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
 		Me.ClientSize = New System.Drawing.Size(610, 295)
+		Me.Controls.Add(Me.Button2)
 		Me.Controls.Add(Me.Button1)
 		Me.Controls.Add(Me.U_Db_Database_Access1)
 		Me.Name = "Git_Test_V1"
@@ -69,4 +80,5 @@ Partial Class Git_Test_V1
 
 	Friend WithEvents U_Db_Database_Access1 As Common_All_2013_a.U_Db_Database_Access
 	Friend WithEvents Button1 As Button
+	Friend WithEvents Button2 As Button
 End Class
