@@ -41,7 +41,7 @@ Partial Class U5_GitHub_Test1
 		Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
 		Me.Controls.Add(Me.Button1)
 		Me.Name = "U5_GitHub_Test1"
-		Me.Size = New System.Drawing.Size(219, 86)
+		Me.Size = New System.Drawing.Size(175, 79)
 		Me.ResumeLayout(False)
 
 	End Sub
