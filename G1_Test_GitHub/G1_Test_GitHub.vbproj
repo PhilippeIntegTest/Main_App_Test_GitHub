@@ -16,6 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Common_All_2013_a">
+      <HintPath>..\..\..\..\Dev_2023-GitHub\(g2)_Repos\L2_Launch_Juil2022\(c) Common_2020\bin\Debug\Common_All_2013_a.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="My Project\Application.Designer.vb">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

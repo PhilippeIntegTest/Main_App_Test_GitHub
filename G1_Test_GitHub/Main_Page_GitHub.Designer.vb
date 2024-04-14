@@ -28,9 +28,9 @@ Partial Class Main_Page_GitHub
 		'U5_GitHub_Test11
 		'
 		Me.U5_GitHub_Test11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.U5_GitHub_Test11.Location = New System.Drawing.Point(52, 39)
+		Me.U5_GitHub_Test11.Location = New System.Drawing.Point(12, 74)
 		Me.U5_GitHub_Test11.Name = "U5_GitHub_Test11"
-		Me.U5_GitHub_Test11.Size = New System.Drawing.Size(220, 100)
+		Me.U5_GitHub_Test11.Size = New System.Drawing.Size(171, 74)
 		Me.U5_GitHub_Test11.TabIndex = 0
 		'
 		'Main_Page_GitHub
